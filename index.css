@@ -1,0 +1,171 @@
+/* Cute Theme 💖 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo 2', cursive;
+}
+
+/* Light Mode */
+body {
+  background: #ffe6f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: 0.5s;
+}
+
+/* Dark Mode */
+body.dark {
+  background: #2b2b2b;
+  color: white;
+}
+
+/* Container */
+.container {
+  width: 50%;
+  background: #fff5f8;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(255, 182, 193, 0.3);
+  text-align: center;
+  border: 3px dashed #ff99c8;
+  transition: 0.5s;
+}
+
+/* Dark Mode */
+body.dark .container {
+  background: #444;
+  color: white;
+}
+
+/* Heading */
+h1 {
+  font-size: 2.5rem;
+  color: #ff66b2;
+  margin-bottom: 15px;
+}
+
+/* Dark Mode */
+body.dark h1 {
+  color: #ff99c8;
+}
+
+/* Input Box */
+.input-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ff99c8;
+  background: #fff;
+  font-size: 1.2rem;
+}
+
+/* Dark Mode */
+body.dark .input-container input {
+  background: #666;
+  color: white;
+}
+
+/* Button */
+.input-container button {
+  padding: 10px 15px;
+  border: none;
+  background: #ff99c8;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.input-container button:hover {
+  background: #ff66b2;
+}
+
+/* List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #ffccdd;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  transition: 0.3s;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Dark Mode */
+body.dark li {
+  background: #555;
+}
+
+/* Check Button */
+.check-btn {
+  background: #ff66b2;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.check-btn:hover {
+  background: #ff4081;
+}
+
+/* Dark Mode Toggle */
+#darkModeToggle {
+  background: #ff99c8;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+#darkModeToggle:hover {
+  background: #ff66b2;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes pop {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
