@@ -1,6 +1,6 @@
-# -CodeAlpha_Todo_App
+# _Todo_App
 "This is my submission for the CodeAlpha Internship. It is a fully functional Todo App with a dark mode feature and cute animations!"
-# 🌸 CodeAlpha Todo App 🌸  
+# 🌸  Todo App 🌸  
 
 🚀 **Project Name:** Cute & Functional Todo App  
 📌 **Internship:** CodeAlpha Internship  
